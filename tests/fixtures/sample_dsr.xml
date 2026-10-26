@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsr:SalesReportMessage xmlns:dsr="http://ddex.net/xml/2019/dsr"
+                        xmlns:ern="http://ddex.net/xml/2019/ern"
+                        MessageSchemaVersionId="dsr/40"
+                        LanguageAndScriptCode="en">
+  <dsr:MessageHeader>
+    <dsr:MessageVersion>4.0</dsr:MessageVersion>
+    <dsr:MessageSender>
+      <dsr:PartyName><dsr:FullName>DistroTest</dsr:FullName></dsr:PartyName>
+      <dsr:PartyId>PA-DPIDA-000000001-X</dsr:PartyId>
+    </dsr:MessageSender>
+    <dsr:MessageCreatedDateTime>2026-07-15T00:00:00Z</dsr:MessageCreatedDateTime>
+  </dsr:MessageHeader>
+  <dsr:SalesReport>
+    <dsr:SalesReportHeader>
+      <dsr:StartDate>2026-06-01</dsr:StartDate>
+      <dsr:EndDate>2026-06-30</dsr:EndDate>
+      <dsr:CurrencyCode>USD</dsr:CurrencyCode>
+    </dsr:SalesReportHeader>
+
+    <dsr:SalesDataToRecordCompany>
+      <dsr:ISRC>USRC17607839</dsr:ISRC>
+      <dsr:TitleText>Midnight Signal</dsr:TitleText>
+      <dsr:DisplayArtistName>Bianca7492</dsr:DisplayArtistName>
+      <dsr:ServiceName>Spotify</dsr:ServiceName>
+      <dsr:TerritoryCode>US</dsr:TerritoryCode>
+      <dsr:Quantity>45000</dsr:Quantity>
+      <dsr:GrossRevenue>157.50</dsr:GrossRevenue>
+      <dsr:Deductions>23.63</dsr:Deductions>
+      <dsr:NetRevenue>133.87</dsr:NetRevenue>
+    </dsr:SalesDataToRecordCompany>
+
+    <dsr:SalesDataToRecordCompany>
+      <dsr:ISRC>USRC17607840</dsr:ISRC>
+      <dsr:TitleText>Lagos Nights</dsr:TitleText>
+      <dsr:DisplayArtistName>Bianca7492</dsr:DisplayArtistName>
+      <dsr:ServiceName>Apple Music</dsr:ServiceName>
+      <dsr:TerritoryCode>NG</dsr:TerritoryCode>
+      <dsr:Quantity>900</dsr:Quantity>
+      <dsr:GrossRevenue>3.15</dsr:GrossRevenue>
+      <dsr:Deductions>0.47</dsr:Deductions>
+      <dsr:NetRevenue>2.68</dsr:NetRevenue>
+    </dsr:SalesDataToRecordCompany>
+
+    <dsr:SalesDataToRecordCompany>
+      <dsr:ISRC>USRC17607841</dsr:ISRC>
+      <dsr:TitleText>Unknown Orbit</dsr:TitleText>
+      <dsr:DisplayArtistName>Nobody</dsr:DisplayArtistName>
+      <dsr:ServiceName>Deezer</dsr:ServiceName>
+      <dsr:TerritoryCode>DE</dsr:TerritoryCode>
+      <dsr:Quantity>1200</dsr:Quantity>
+      <dsr:GrossRevenue>4.20</dsr:GrossRevenue>
+      <dsr:Deductions>0.63</dsr:Deductions>
+      <dsr:NetRevenue>3.57</dsr:NetRevenue>
+    </dsr:SalesDataToRecordCompany>
+
+    <dsr:SalesDataToRecordCompany>
+      <dsr:ISRC>USRC17607842</dsr:ISRC>
+      <dsr:TitleText>Sunrise Drive</dsr:TitleText>
+      <dsr:DisplayArtistName>Bianca7492</dsr:DisplayArtistName>
+      <dsr:ServiceName>Spotify</dsr:ServiceName>
+      <dsr:TerritoryCode>GB</dsr:TerritoryCode>
+      <dsr:Quantity>22000</dsr:Quantity>
+      <dsr:GrossRevenue>77.00</dsr:GrossRevenue>
+      <dsr:Deductions>11.55</dsr:Deductions>
+      <dsr:NetRevenue>65.45</dsr:NetRevenue>
+    </dsr:SalesDataToRecordCompany>
+  </dsr:SalesReport>
+</dsr:SalesReportMessage>
